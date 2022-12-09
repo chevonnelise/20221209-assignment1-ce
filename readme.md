@@ -6,3 +6,8 @@ Initial set-up
 Initialise map
 1. set singapore centrepoint, add tile layer 
 2. add map div
+
+Create cluster layer
+1. add leaflet marker cluster and axios packages
+2. add taxiPoints marker cluster layer to 'script.js'
+3. add mrt station geoJson
