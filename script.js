@@ -36,10 +36,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 loadMrtData ()
 
 async function loadMrtData() {
-    const response = await axios.get('mrt.geojson')
+    const response = await axios.get('./geoJson/mrt.geojson')
     const mrtLayer = L.geoJson(response.data, {
         onEachFeature: function(feature, layer) {
-            if (feature.type == "station") {
+            console.log(feature)
+            if (feature.properties.type == "station") {
                 layer.bindPopup(`
                 <div style="min-width:100px">
                     <p>${feature.properties.name}</p>
