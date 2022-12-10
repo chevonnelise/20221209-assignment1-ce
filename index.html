@@ -13,12 +13,25 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="map-container">
+    
     <div id="map"></div>
+
+    <button id="toggle-search-btn">Toggle Search</button>
+    <div id="search-container">
+        <input type="text" id="search-terms"/>
+        <button id="search-btn">Search</button>
+        <div id="search-results">
+        </div>
+    </div>
     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
     crossorigin=""></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script src="data.js"></script>
     <script src="script.js"></script>
+
+    </div>
 </body>
 </html>
