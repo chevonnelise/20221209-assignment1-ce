@@ -10,4 +10,11 @@ Initialise map
 Create cluster layer
 1. add leaflet marker cluster and axios packages
 2. add taxiPoints marker cluster layer to 'script.js'
-3. add mrt station geoJson
+
+Create mrt layer
+1. add mrt station geoJson
+
+Create search button
+1. 
+2. 
+3. 
