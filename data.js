@@ -5,7 +5,7 @@ async function loadData(query, latLng, radius) {
             ll: latLng,
             v: '20210903',
             radius: radius,
-            limit: 50
+            limit: 10
         },
         headers:{
             Accept: 'application/json',
