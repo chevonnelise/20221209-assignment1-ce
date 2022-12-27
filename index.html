@@ -17,11 +17,17 @@
     <div id="map-container">
 
         <div id="map"></div>
-
+        <div class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+        </div>
         <div id="search-container">
             <input type="text" id="search-terms" />
             <button id="search-btn">Search</button>
-            <div id="search-results"></div>
+            <div id="search-results">
+                <div id="search-results-list"></div>
+            </div>
         </div>
         <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
             integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
@@ -31,7 +37,6 @@
         <script src="searchBtn.js"></script>
         <script src="data.js"></script>
         <script src="script.js"></script>
-
     </div>
 </body>
 

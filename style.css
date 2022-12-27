@@ -17,8 +17,17 @@
 }
 
 #search-results {
+    overflow-y: scroll;
     margin-top: 5px;
     margin-bottom: 4px;
     background-color: rgb(253, 241, 246);
     background-blend-mode: color-dodge;
 }
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
