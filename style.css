@@ -8,7 +8,7 @@
 }
 
 #search-container {
-    position: absolute;
+    position: relative;
     top: 12px; /* 12px from the top */
     left: 50px; /* 50px from the left */ 
     z-index: 314159;
@@ -31,3 +31,7 @@
     bottom: 0;
     width: 100%;
   }
+
+.nav-tabs {
+    position: relative;
+}
